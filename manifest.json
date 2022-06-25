@@ -1,0 +1,22 @@
+{
+    "name": "UniMeet",
+    "version": "1.0.0",
+    "description": "UniMeet",
+    "manifest_version": 3,
+    "author": "JC",
+    "background": {
+        "service_worker": "background.js"
+      },
+      "icons": {
+        "32": "Safeimagekit-resized-imgpng (1).png"
+      },
+    "action":{
+        "default_popup": "google_meet_extension.html",
+        "default_title": "Google meet extension" 
+    },
+    "permissions": [
+        "activeTab"
+      ]
+    
+    
+}

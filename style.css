@@ -1,0 +1,208 @@
+
+body {
+    background: #7A8CE2;
+        height: 200px;
+        width: 240px;
+        
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+.container{
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 6.5px;
+    width: 94.5%;
+    padding-top: 10px;
+    height: 78%;
+    border-radius: 5px;
+  
+        backdrop-filter: blur(5px);
+}
+
+.top{
+    background-color: white;
+    height: 15%;
+}
+
+#headline{
+    color:rgb(0, 0, 0);
+    margin-left: 47px;
+    font-size: 16px;
+    margin-top: -40px; 
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#test_button1 {
+
+    background-image: linear-gradient(to right, #7A8CE2 0%, #2771bb 51%, #0057BD 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 57px;
+    display: none;
+    border-width: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#test_button2 {
+    background-image: linear-gradient(to right, #7A8CE2 0%,
+        #2771bb 51%,
+        #0057BD 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 8px;
+    margin-left: 36px;
+    margin-top: 10px;
+    border-width: 1.3px;
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#test_button3 {
+    background-image: linear-gradient(to right, #7A8CE2 0%,
+        #2771bb 51%,
+        #0057BD 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 8px;
+    margin-left:30px ;
+    margin-top: 7px;
+    border-width: 1.3px;
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#test_button3:hover {
+    background-position: center center;
+    /* change the direction of the change here */
+    color: rgb(255, 255, 255);
+}
+
+#form {
+    display: none;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+#form_input {
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 8px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#option_select {
+
+    border-style: solid;
+    border-width: 1.4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-left: 9px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#image_click {
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 40px;
+    /* Location of the box */
+    left: -10px;
+    top: 30px;
+    width: 110%;
+    /* Full width */
+    height: 110%;
+    /* Full height */
+    overflow: none;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #8d8d8d;
+    float: right;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i{
+    color: #2f3b76;
+        margin-top: 54.5px;
+        margin-left: 177.5px;
+}
+
+#image_click_2 {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#slide-right {
+    font-size: 13px;
+    margin-top: -30px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: 2s slide-right 2s forwards;
+    transform: translateX(2%);
+    display: none;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-5%);
+    }
+}
