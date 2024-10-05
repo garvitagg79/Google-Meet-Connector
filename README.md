@@ -33,6 +33,9 @@ Once installed:
 
 ## How It Works
 
+![](https://drive.google.com/uc?export=view&id=1RW0WYP3r5RY0-Qkdg43bSIw1-n4h_AyT)
+![](https://drive.google.com/uc?export=view&id=1vxpZCB8vXNvKsEBIF35yvC2c8mZDm6j4)
+
 UniMeet integrates seamlessly with Microsoft Edge to simplify the meeting creation process. By clicking the extension button, the user is taken directly to a meeting room with no additional steps required. This reduces friction and improves meeting start times by up to 3x, making it perfect for users who frequently need to start meetings on the go.
 
 ![](https://drive.google.com/file/d/1vxpZCB8vXNvKsEBIF35yvC2c8mZDm6j4/view?usp=sharing)
